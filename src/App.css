@@ -14,7 +14,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +34,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+ul.header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.header-button {
+  color: #121212 !important;
+  background: #Be7a25 !important;
+  border: 1px solid #FFE082 !important;
+}
+.p-card {
+  background: #fff !important;
+}
+.p-inputtext {
+  background: #fff !important;
 }
